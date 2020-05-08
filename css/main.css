@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  padding: 2% 0 2% 0;
+  background-color: #088A85;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'alpha_echoregular', Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+
+}
+.enchantee{
+  font-size: 20px;
+  color: #190B07;
+
+}
+span{
+  color:#DBA901;
+}
+
+.note{
+  width: 200px;
+  height: 500px;
+  padding: 5% 10% 5% 10%;
+  margin: 10% 5% 2% 10%;
+  background-color: #F6D8CE;
+
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+
+}
+.i{
+  background: -webkit-linear-gradient (#FE2E2E, #FA8258);
+  -webkit-background-clip:icon;
+}
+.degrade_1{
+  background: -webkit-linear-gradient(#DF7401, #9A2EFE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.degrade_2{
+  background: -webkit-linear-gradient(#0431B4, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.degrade_3{
+  background: -webkit-linear-gradient(#21610B, #ACFA58);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.chic{
+  width: 200px;
+  height: 500px;
+  padding: 5% 10% 5% 10%;
+  margin: 10% 5% 2% 10%;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+.délice{
+  width: 200px;
+  height: 500px;
+  padding: 5% 10% 5% 10%;
+  margin: 5% 5% 5% 10%;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+.palette{
+  width: 200px;
+  height: 500px;
+  padding: 5% 10% 5% 10%;
+  margin: 5% 5% 5% 10%;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+.jeje_1{
+  width: 100%;
+  height:100%;
+  padding: 80% 2% 20% 2%;
+  text-align: center;
+  font-size: 20px;
+}
+.jeje{
+  width: 100%;
+  height:500px;
+  padding: 80% 2% 20% 2%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+}
+.menu_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button{
+  padding: 1% 5% 1% 5%;
+  margin: 5% 20% 10% 40%;
+  background-color: #04B486;
+  border-radius: 20px;
+  color: #DBA901;
+  font-size: 30px;
+
+}
+.bas_page{
+  width: 100%;
+  bottom: 0;
+  padding: 2%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #088A85;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* Page 2 */
+*{
+  margin: 0;
+  padding: 0;
+}
+.bloc_page{
+  background-color: #F6D8CE;
+  height: 100%;
+}
+h3{
+  text-align: center;
+}
+.en_tete{
+  margin: 10%;
+  line-height: 3rem;
+  text-align: center;
+}
+.prelude{
+  margin: 2% 15% 2% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orgue{
+  margin: 2% 15% 2% 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.final{
+  margin:2% 25% 2% 22%;
+  line-height: 2rem;
+}
+.plat{
+  padding: 2% 10% 2% 10%;
+  line-height: 2rem;
+}
+.prix{
+  padding: 2% 10% 2% 10%;
+  line-height: 2rem;
+}
+.en_tete2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 20% 10% 20%;
+}
