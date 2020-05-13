@@ -12,101 +12,80 @@ header{
   font-size: 40px;
   font-family: 'alpha_echoregular', Arial, sans-serif;
 }
+span{
+  color: #DBA901;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin:auto;
+}
+.menu_1{
+  width: 40%;
+  text-align: center;
+  height: 500px;
+  padding: 10px;
+  margin: 5% 2.5% 0% 2.5%;
+  background-color: #F5BCA9;
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+.menu{
+  width: 40%;
+  text-align: center;
+  height: 500px;
+  padding: 10px;
+  margin: 5% 2.5% 0% 2.5%;
+  background-color: #fff;
+  box-shadow: 6px 6px 6px 6px #D8D8D8;
+}
+
+
+
 a{
   text-decoration: none;
 
 }
-.enchantee{
+.icone {
   font-size: 20px;
-  color: #190B07;
-
+  color: #9c47fc;
+  display: block;
+  background: -webkit-linear-gradient(right,#F7BE81, #FE2E2E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-span{
-  color:#DBA901;
-}
 
-.note{
-  width: 200px;
-  height: 500px;
-  padding: 5% 10% 5% 10%;
-  margin: 10% 5% 2% 10%;
-  background-color: #F6D8CE;
-
-  box-shadow: 6px 6px 6px 6px #D8D8D8;
-
-}
-.i{
-  background: -webkit-linear-gradient (#FE2E2E, #FA8258);
-  -webkit-background-clip:icon;
-}
 .degrade_1{
-  background: -webkit-linear-gradient(#DF7401, #9A2EFE);
+  background: -webkit-linear-gradient(right,#9A2EFE, #DF7401);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
 .degrade_2{
-  background: -webkit-linear-gradient(#0431B4, #00FFFF);
+  background: -webkit-linear-gradient(right,#00FFFF, #0431B4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
+
 .degrade_3{
-  background: -webkit-linear-gradient(#21610B, #ACFA58);
+  background: -webkit-linear-gradient(right,#ACFA58, #21610B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
 
-.chic{
-  width: 200px;
-  height: 500px;
-  padding: 5% 10% 5% 10%;
-  margin: 10% 5% 2% 10%;
-  background-color: #fff;
-  box-shadow: 6px 6px 6px 6px #D8D8D8;
-}
-.délice{
-  width: 200px;
-  height: 500px;
-  padding: 5% 10% 5% 10%;
-  margin: 5% 5% 5% 10%;
-  background-color: #fff;
-  box-shadow: 6px 6px 6px 6px #D8D8D8;
-}
-.palette{
-  width: 200px;
-  height: 500px;
-  padding: 5% 10% 5% 10%;
-  margin: 5% 5% 5% 10%;
-  background-color: #fff;
-  box-shadow: 6px 6px 6px 6px #D8D8D8;
-}
-.jeje_1{
-  width: 100%;
-  height:100%;
-  padding: 80% 2% 20% 2%;
+
+.align{
+  padding-top: 40%;
   text-align: center;
   font-size: 20px;
+  line-height: 2rem;
 }
-.jeje{
-  width: 100%;
-  height:500px;
-  padding: 80% 2% 20% 2%;
-  text-align: center;
-  line-height: 20px;
-  font-size: 20px;
+.enchantee{
+  color: #3B170B;
 }
-.menu_1{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.menu_2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+
 
 button{
   padding: 1% 5% 1% 5%;
@@ -117,16 +96,22 @@ button{
   font-size: 30px;
 
 }
-.bas_page{
+footer{
   width: 100%;
   bottom: 0;
   padding: 2%;
   position: fixed;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #088A85;
   font-size: 30px;
+}
+.contact{
+	float:right;
+	margin-right:70px;
+}
+.mentions{
+	float:left;
 }
 
 
