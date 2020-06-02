@@ -1,0 +1,22 @@
+.bas_page{
+      width: 100%;
+      bottom: 0;
+      padding: 1%;
+      position: fixed;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #088A85;
+      font-size: 20px;
+      color:$color-text;
+    }
+.contact{
+	float:right;
+	margin-right:70px;
+}
+.mentions{
+	float:left;
+  margin-left: 70px;
+}
+.footer{
+  padding: 2% 0 2% 0;
+}
