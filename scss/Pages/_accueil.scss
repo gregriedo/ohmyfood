@@ -1,0 +1,57 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin:auto;
+}
+.menu_1{
+  width: 40%;
+  text-align: center;
+  height: 500px;
+  padding: 10px;
+  margin: 5% 2.5% 0% 2.5%;
+  background-color: #FCDFDB;
+  box-shadow: 6px 6px 6px 6px $color-shadow;
+}
+.menu{
+  width: 40%;
+  text-align: center;
+  height: 500px;
+  padding: 10px;
+  margin: 5% 2.5% 0% 2.5%;
+  background-color: $color-secondary;
+  box-shadow: 6px 6px 6px 6px $color-shadow;
+}
+.enchantee{
+  font-size: 20px;
+  color: #3B170B;
+  font-family: 'Shadows Into Light Two', cursive;
+
+}
+
+
+a{
+  text-decoration: none;
+
+}
+
+
+.degrade_1{
+  background: -webkit-linear-gradient(right,#9A2EFE, #DF7401);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.degrade_2{
+  background: -webkit-linear-gradient(right,#00FFFF, #0431B4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.degrade_3{
+  background: -webkit-linear-gradient(right,#ACFA58, #21610B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
