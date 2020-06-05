@@ -86,9 +86,7 @@
 
 body {
   margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%; }
+  overflow-x: hidden; }
 
 span {
   color: #DBA901; }
@@ -103,7 +101,11 @@ h3 {
   vertical-align: middle; }
 
 .align {
-  padding-top: 50%;
+  padding: 15% 0 10% 0;
+  line-height: 2em; }
+
+.align2 {
+  padding: 30% 0 10% 0;
   line-height: 2em; }
 
 .intitule {
@@ -115,19 +117,18 @@ h3 {
 ul {
   list-style: none; }
 
-@media all and (min-width: 1280px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin: auto; } }
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: auto; }
+
 li {
   display: flex;
   flex-direction: row; }
 
 .container1 {
   width: 70%;
-  margin: 1% 10% 10% 15%;
+  margin: 1% 10% 10% 10%;
   box-shadow: 0 14px 28px #D8D8D8, 0 10px 10px #D8D8D8; }
 
 img {
@@ -174,14 +175,8 @@ img {
 
 /* Responsive pour smartphone*/
 @media all and (max-width: 800px) {
-  body {
-    width: auto;
-    height: auto;
-    margin: 0; }
-
   /* Page d'accueil */
   .row {
-    margin-left: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,13 +184,11 @@ img {
     align-content: center; }
 
   .menu_1 {
-    width: 30%;
-    height: 200px;
+    width: 80% !important;
     padding: 2% 10% 2% 10%; }
 
   .menu {
-    width: 30%;
-    height: 200px;
+    width: 80% !important;
     padding: 2% 10% 2% 10%; }
 
   h3 {
@@ -205,12 +198,28 @@ img {
     margin: auto;
     font-size: 15px; }
 
-  /* les differents menus */
+  .contact {
+    float: right;
+    margin-right: 20px !important; }
+
+  .mentions {
+    float: left;
+    margin-left: 20px !important; }
+
+  /* Responsive sur les autres menus */
   .en_tete {
     text-align: center; }
 
   .container1 {
-    margin-bottom: 15%; }
+    width: 90% !important;
+    margin: 0 5% 200px 5%;
+    font-size: 15px; }
+
+  .container2 {
+    width: 80% !important;
+    margin: 0 5% 200px 5% !important;
+    padding: 0 5% 0 5%;
+    font-size: 15px; }
 
   .title {
     text-align: center; }
@@ -231,20 +240,33 @@ img {
     line-height: 1px; }
 
   img {
-    width: 150px; } }
-/* Responsive tablette */
-@media all and (min-width: 799px) and (max-width: 1280px) {
-  .menu_1 .menu {
-    width: auto;
-    height: auto; }
+    max-width: 25%;
+    height: auto; } }
+@media all and (min-width: 800px) and (max-width: 1280px) {
+  /*page d'accueil */
+  .container {
+    margin-left: 5%; }
 
   .row {
     display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin: auto; } }
-/* les différents menus*/
-/*Responsive desktop */
+    margin: auto; }
+
+  .align {
+    padding: 20% 0 10% 0;
+    line-height: 2em; }
+
+  .align2 {
+    padding: 40% 0 10% 0;
+    line-height: 2em; }
+
+  /* Autres menus */
+  .plat {
+    width: auto;
+    text-align: left; }
+
+  .prix {
+    width: auto;
+    text-align: right; } }
 .note {
   font-family: 'Shadows Into Light Two', cursive,sans-serif; }
 
@@ -276,12 +298,16 @@ i {
   -webkit-text-fill-color: transparent; }
 
 .btn {
-  padding: 0.5% 5% 0.5% 5%;
-  margin: 5% 40% 10% 35%;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
   background-color: #088A85;
   border-radius: 20px;
   color: #DBA901;
   font-size: 25px; }
+
+.more {
+  margin: 30px 0 100px 0; }
 
 .dot {
   display: inline-block;
