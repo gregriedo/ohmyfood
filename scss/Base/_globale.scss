@@ -145,19 +145,28 @@ img{
   .en_tete{
     text-align: center;
   }
+  .container1{
+    margin-bottom: 15%;
+  }
   .title{
     text-align: center;
+
   }
   li{
     flex-direction: column;
   }
-  
+  .bloc{
+    line-height: 1px;
+  }
+
   .plat{
     text-align: center;
+    line-height: normal;
   }
   .prix{
     margin-left: 30%;
   text-align: center;
+  line-height: 1px;
   }
 img{
   width: 150px;
