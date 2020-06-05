@@ -136,6 +136,7 @@ img{
     font-size: 20px;
   }
   .btn{
+    margin: auto;
     font-size: 15px;
   }
 
@@ -150,8 +151,12 @@ img{
   li{
     flex-direction: column;
   }
-
+  
+  .plat{
+    text-align: center;
+  }
   .prix{
+    margin-left: 30%;
   text-align: center;
   }
 img{
