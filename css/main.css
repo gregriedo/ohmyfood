@@ -91,6 +91,9 @@ body {
 span {
   color: #DBA901; }
 
+h1 {
+  color: #DBA901; }
+
 h2 {
   font-size: 30px; }
 
@@ -128,13 +131,17 @@ li {
   flex-direction: row; }
 
 .container1 {
-  width: 70%;
+  width: 80%;
   margin: 1% 10% 10% 10%;
   box-shadow: 0 14px 28px #D8D8D8, 0 10px 10px #D8D8D8; }
 
 img {
   width: 230px;
   height: 20px; }
+
+.link {
+  text-decoration: none;
+  color: #DBA901; }
 
 .en_tete {
   margin-top: 2%;
@@ -383,8 +390,8 @@ a {
   color: #7401DF; }
 
 .container2 {
-  width: 70%;
-  margin: 1% 10% 10% 15%;
+  width: 80%;
+  margin: 1% 10% 10% 10%;
   background-color: #EDEFEF;
   box-shadow: 0 14px 28px #D8D8D8, 0 10px 10px #D8D8D8; }
 
