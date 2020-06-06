@@ -120,7 +120,8 @@ ul {
 .row {
   display: flex;
   flex-direction: row;
-  margin: auto; }
+  justify-content: center;
+  align-items: center; }
 
 li {
   display: flex;
@@ -245,10 +246,13 @@ img {
 @media all and (min-width: 800px) and (max-width: 1280px) {
   /*page d'accueil */
   .container {
-    margin-left: 5%; }
+    justify-content: center;
+    align-items: center; }
 
   .row {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto; }
 
   .align {
