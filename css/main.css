@@ -289,10 +289,12 @@ img {
   /* Autres menus */
   .plat {
     width: auto;
+    padding: auto;
     text-align: left; }
 
   .prix {
     width: auto;
+    margin-left: auto;
     text-align: right; } }
 .note {
   font-family: 'Shadows Into Light Two', cursive,sans-serif; }
