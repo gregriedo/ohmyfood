@@ -84,7 +84,21 @@ transition: all .5s ease;
 transform: scale(1.2);
 opacity: 0.5;
 }
-
+.align2{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	}
+.align2:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2); /* IE 9 */
+	transform: scale(1.2);
+	opacity: 0.5;
+}
 /*Animation titre souligné */
 @keyframes mymove{
 	from{
