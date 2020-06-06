@@ -5,6 +5,10 @@ body{
 }
 
 span{
+
+  color:$color-text;
+}
+h1{
   color:$color-text;
 }
 h2{
@@ -48,15 +52,20 @@ li{
   display: flex;
   flex-direction: row;
 }
-.container1{
-  width: 70%;
+.container1 {
+  width: 80%;
   margin: 1% 10% 10% 10%;
+
   box-shadow: 0 14px 28px $color-shadow, 0 10px 10px $color-shadow;
 }
 
 img{
   width: 230px;
   height: 20px;
+}
+.link{
+  text-decoration: none;
+  color: $color-text;
 }
 .en_tete{
   margin-top: 2%;
